@@ -49,7 +49,7 @@ public class UserServiceImpl implements UserService {
    */
   @Override
   public RegisteredUser findByName(String name) {
-    return userDao.findByName(name);
+    throw new RuntimeException("Not implemented yet");
   }
 
   /*
